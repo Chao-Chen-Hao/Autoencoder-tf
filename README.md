@@ -41,7 +41,8 @@ def forward(self, is_train, reuse):
 
 Requirements
 ------------
+python 3.x, tensorflow 1.x
 
-- [OpenCV Python](https://pypi.python.org/pypi/opencv-python)
-- [matplotlibcv](https://pypi.org/project/matplotlib/)
-- [tensorflow](https://www.tensorflow.org/)
+- OpenCV Python (https://pypi.python.org/pypi/opencv-python)
+- matplotlibcv (https://pypi.org/project/matplotlib/)
+- tensorflow (https://www.tensorflow.org/)
