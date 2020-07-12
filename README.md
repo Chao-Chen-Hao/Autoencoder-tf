@@ -43,6 +43,19 @@ def forward(self, is_train, reuse):
       return loss, relu2_e, out_t
 ```
 
+#### Pretrained Model
+The checkpoints are in the `checkpoints` directory. Use the following command to resume training:
+
+```
+python main.py --restore --inference_version 1700
+```
+
+Or you could test the pretrained model by using the following command:
+
+```
+python main.py --is_train False --inference_version 1700
+```
+
 Requirements
 ------------
 python 3.x, tensorflow 1.x
