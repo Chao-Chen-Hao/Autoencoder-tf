@@ -18,7 +18,7 @@ from model import Model
 #           Flags          #
 ############################
 # --------- Mode --------- #
-tf.app.flags.DEFINE_boolean("is_train", True, "training mode.")
+tf.app.flags.DEFINE_boolean("is_train", False, "training mode.")
 tf.app.flags.DEFINE_boolean("restore", False, "training mode.")
 # ------- Training ------- #
 tf.app.flags.DEFINE_float("learning_rate", 0.001, "learning rate.")
