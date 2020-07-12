@@ -9,7 +9,7 @@ Autoencoder
 Run with the default arguments:
 
 ```
-python main.py
+python main.py --is_train
 ```
 
 change the model settings in model.py:
@@ -47,13 +47,13 @@ def forward(self, is_train, reuse):
 The checkpoints are in the `checkpoints` directory. Use the following command to resume training:
 
 ```
-python main.py --restore --inference_version 1700
+python main.py --is_train --restore --inference_version 1700
 ```
 
 Or you could test the pretrained model by using the following command:
 
 ```
-python main.py --is_train False --inference_version 1700
+python main.py --inference_version 1700
 ```
 
 Requirements
