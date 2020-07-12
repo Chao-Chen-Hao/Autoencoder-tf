@@ -1,6 +1,10 @@
 Autoencoder
 =======
 
+| Original | Decoded |
+|----------|---------|
+| <img src="ori.png" height="240"> | <img src="test.png" height="240"> |
+
 #### Quick start
 Run with the default arguments:
 
